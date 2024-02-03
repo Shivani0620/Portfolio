@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #D2DBC8;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    #background-color: royalblue;
+}
+.left{
+    width: 70%;
+}
+.left img{
+    width: 10%;
+}
+.right ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.right ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+.right ul li a{
+    text-decoration: none;
+    color: royalblue;
+}
+.right ul li a:hover{
+    color: blue;
+}
+.left{
+    font-size: 2rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items:  center;
+}
+.firstSection > div{
+    width: 40%;
+}
+.leftSection{
+    font-size: 3rem;
+}
+.buttons{
+    margin: 40px;
+    padding: 20px;
+}
+.btn1{
+    width: 20%;
+    background: #D2DBC8;
+    color: black;
+    border: 2px solid;
+    border-radius: 3px;
+    padding: 2px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn2{
+    width: 20%;
+    background: #D2DBC8;
+    color: black;
+    border: 2px solid;
+    border-radius: 3px;
+    padding: 2px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.rightSection img{
+    width: 70%;
+    margin: 40px;
+}
+.name{
+    color: #4A5D5E;
+}
+.about{
+    margin: 30px;
+}
+.about p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.skill{
+    padding: 10px ;
+    outline: 1px solid black;
+    padding-left: 140px;
+    padding-right: 150px;
+}
+.project{
+    padding: 10px;
+    outline: 1px solid black;
+    padding-right: 140px;
+    padding-left: 140px;
+}
+.contact{
+    padding: 10px;
+    outline: 1px solid black;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 85px;
+}
+
